@@ -30,7 +30,7 @@
     justify-content: center;
 }
 .countdown-section h1{
-  font-style: italic;
+  /* font-style: italic; */
   /* text-transform: uppercase; */
   /* font-weight: bold; */
   font-size: 2em;
@@ -159,8 +159,8 @@
     font-weight: bold;
     margin-top: 5%;
     font-size: 1.8rem;
-    width: 23%;
-    margin-left: 39%;
+    width: 19%;
+    margin-left: 42%;
 }
 
 .total {

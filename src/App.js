@@ -57,29 +57,9 @@ function App() {
 				<div class ="about-section">
 					<div className="about-us-section">
 						<p className="emphased center">Welcome on Wrong Artem Club</p>
-						<p>After conveying our love of absurd and controversial art on Instagram with Su- perwrong Magazine, we wanted to go further.</p>
-						<p>It is through a passion for the metaverse that a dream was born, Wrong Artem Club, with a common goal: to create a universe highlighting the artists who have made histo- ry, and those who have not finished building it. Thus, Wrong Artem Club wants to spearhead the accessibility of art by all, and this through our common ambitions: to shout art, to spread it, to help it to develop, to make it exist at all costs.</p>
-						<p>So, the Wrong Artem Club opens its doors to you, and engages you to share with us what will make tomorrow a world of expression and emotion. </p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">Commercial Royalties</p>
-						<p> 50% Royalties due from us (Creators) to you (WoW NFT owner) on any profit we might generate from commercial use.Make your WoW NFT a star and She will make you Eth.Of course, each token grants commercial rights to the art for you to create so- mething with your WoW NFT if you wish to do so.</p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">The Fund</p>
-						<p>
-						Wrong Artem Club is about growing the nft art space that’s already here and that we love. We see thousands of artists committed to the space and we will do our part to lift the market up.15% of all primary sales will be reinvested in cryptoart!</p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">Our mission</p>
-						<p>- Building a collection through the acquisition of 1/1 Crypto art pieces</p>
-						<p>- Promoting and Showcasing the artists from its collection</p>
-						<p>- Operating purchases requested by the Curator’s Club</p>
-						<p>- Taking in consideration the recommendations of all WoW NFTs owners</p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">Causes we support</p>
-						<p>World of Women is about empowering Women through art and promoting diversity. It’s only fitting that we would support Women in the real world as well. 2,5% of all pri- mary sales will be donated to each of these 3 causes</p>
+						<p>After bringing our love of absurd and controversial art to Instagram with Superwrong Magazine, we wanted to take it a step further.</p>
+						<p>It is through a passion for the metaverse that our dream was born, the Wrong Artem Club, with a common goal : to create a universe highlighting the artists who have made history, and those who have not finished building it. Thus, Wrong Artem Club wants to spearhead the accessibility of art by all, and this through our common ambitions: to shout art, to spread it, to help it to develop, to make it exist at all costs.</p>
+						<p>So, the Wrong Artem Club welcomes you, and invites you to share with us what will make tomorrow a world of expression and emotion.</p>
 					</div>
 				</div>
 			</div>

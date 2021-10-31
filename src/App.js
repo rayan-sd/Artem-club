@@ -155,24 +155,24 @@ function App() {
 					<div className="grid_team">
 						<div className="team_2">
 							<div style={{marginBottom: '-21px'}}><img src={team2} alt="team1"></img></div>
-							<span >Vincent</span>
-							<br/>
-							<br/>
-							<span>Project Leader</span>
-						</div>
-						<div className="team_3">
-							<div style={{paddingBottom: '6px'}}><img style={{width: '96%',  paddingLeft: '53px'}} src={team3} alt="team1"></img></div>
-							<span >Maelys</span>
-							<br/>
-							<br/>
-							<span>Commercial Leader</span>
-							</div>
-						<div className="team_4">
-							<img  src={team1} alt="team1"></img>
 							<span >Thomas</span>
 							<br/>
 							<br/>
 							<span>Developer Leader</span>
+						</div>
+						<div className="team_3">
+							<div style={{paddingBottom: '6px'}}><img style={{width: '96%',  paddingLeft: '53px'}} src={team3} alt="team1"></img></div>
+							<span >Vincent</span>
+							<br/>
+							<br/>
+							<span>Project Leader</span>
+							</div>
+						<div className="team_4">
+							<img  src={team1} alt="team1"></img>
+							<span >Maelys</span>
+							<br/>
+							<br/>
+							<span>Commercial Leader</span>
 						</div>
 				</div>
 			</section>

@@ -1,0 +1,169 @@
+
+.countdown-section{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.countdown-section .part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.mint_case {
+  outline: 2px solid;
+  color: black;
+  outline-color: rgb(16 14 14 / 50%);
+  outline-offset: 6px;
+  font-size: 22px;
+  padding-left: 170%;
+  padding-right: 170%;
+}
+
+.part.left {
+  height: 750px;
+    padding: 4em 7em;
+}
+.part.right{
+    align-items: center;
+    justify-content: center;
+}
+.countdown-section h1{
+  font-style: italic;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
+  font-size: 2em;
+	/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4); */
+}
+
+.countdown{
+  width:100%;
+}
+.clock {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #0e1131, #0e1131);
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  width: 100%;
+  margin: 40px 0px;
+}
+
+.clock div {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-height: 80px !important;
+}
+
+.clock div p {
+  font-size: 2rem;
+  text-align: center;
+  color: #06f1f6 !important;
+  margin-block-start: unset !important;
+  margin-block-end: unset !important;
+}
+
+.clock div small {
+  color: silver;
+  text-shadow: none;
+}
+
+
+@media (max-width:955px){
+  .countdown-section{
+    padding-top: 100px;
+    justify-content: center;
+  }
+  .countdown-section .part{
+    flex: unset;
+    width: 100%;;
+  }
+
+  .part.left{
+    padding: unset;
+  }
+}
+
+.grid_mint {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 200px;
+}
+
+.btn_moins {
+  outline: 2px solid;
+  color: black;
+  outline-offset: 6px;
+  font-size: 22px;
+  padding-left: 60px;
+  padding-right: 60px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.nb_mint {
+  outline: 2px solid;
+  color: black;
+  outline-offset: 6px;
+  font-size: 22px;
+  padding-left: 60px;
+  padding-right: 60px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.btn_plus {
+  outline: 2px solid;
+  color: black;
+  outline-offset: 6px;
+  font-size: 22px;
+  padding-left: 60px;
+  padding-right: 60px;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.btn_mint {
+  width: 10%;
+  outline: 2px solid;
+  color: black;
+  outline-offset: 6px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.enter_line {
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 9px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 280px;
+  margin-left: 200px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.join_button {
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 1.8rem;
+    width: 23%;
+    margin-left: 39%;
+}
+
+.total {
+  color :pink;
+  font-size: 20px;
+}

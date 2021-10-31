@@ -1,0 +1,74 @@
+/* RULE SECTION */
+.rules-section{
+  background-color: #C5C0D0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:right;
+}
+
+.rules-section .wrapper p {
+  padding-right: 150px;
+}
+
+@media (max-width:600px){
+  .rules-section{
+    background-color: #C5C0D0;
+  }
+}
+
+.grid_team {
+  display: grid;
+  padding-top: 80px;
+}
+
+.text_team {
+  grid-column:2;
+  grid-row: 1;
+  padding-top: 3%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.team_1 {
+  grid-column:1;
+  grid-row: 1;
+  text-align: center;
+}
+
+.team_2 {
+  grid-column:1;
+  grid-row: 2;
+  text-align: center;
+  padding-left: 85px;
+  padding-bottom: 20%;
+}
+
+.team_2 p{
+  padding-left: 58px;
+}
+
+.team_3 {
+  grid-column:2;
+  text-align: center;
+  grid-row: 2;
+  padding-left: 100px;
+}
+
+.team_3 p{
+  padding-left: 66px;
+}
+.team_4 {
+  grid-column:3;
+  text-align: center;
+  padding-left: 80px;
+  grid-row: 2;
+}
+
+.team_4 p{
+  padding-left: 80px;
+}
+
+.grid_team p{
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}

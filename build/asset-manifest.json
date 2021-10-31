@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/SuperWrong/static/css/main.30c1bfd2.chunk.css",
+    "main.js": "/SuperWrong/static/js/main.6bb9c651.chunk.js",
+    "main.js.map": "/SuperWrong/static/js/main.6bb9c651.chunk.js.map",
+    "runtime-main.js": "/SuperWrong/static/js/runtime-main.8b8d3e77.js",
+    "runtime-main.js.map": "/SuperWrong/static/js/runtime-main.8b8d3e77.js.map",
+    "static/js/2.0155f688.chunk.js": "/SuperWrong/static/js/2.0155f688.chunk.js",
+    "static/js/2.0155f688.chunk.js.map": "/SuperWrong/static/js/2.0155f688.chunk.js.map",
+    "static/js/3.a4e45015.chunk.js": "/SuperWrong/static/js/3.a4e45015.chunk.js",
+    "static/js/3.a4e45015.chunk.js.map": "/SuperWrong/static/js/3.a4e45015.chunk.js.map",
+    "index.html": "/SuperWrong/index.html",
+    "static/css/main.30c1bfd2.chunk.css.map": "/SuperWrong/static/css/main.30c1bfd2.chunk.css.map",
+    "static/js/2.0155f688.chunk.js.LICENSE.txt": "/SuperWrong/static/js/2.0155f688.chunk.js.LICENSE.txt",
+    "static/media/footer.css": "/SuperWrong/static/media/Group 1footer.6f46826c.png",
+    "static/media/Maelys.2fbe0a95.png": "/SuperWrong/static/media/Maelys.2fbe0a95.png",
+    "static/media/Thomas.eaf8a9d6.png": "/SuperWrong/static/media/Thomas.eaf8a9d6.png",
+    "static/media/Vincent.3ce5eed2.png": "/SuperWrong/static/media/Vincent.3ce5eed2.png",
+    "static/media/Wara.a4e81a54.png": "/SuperWrong/static/media/Wara.a4e81a54.png",
+    "static/media/App.css": "/SuperWrong/static/media/background1.b50cd6e5.png",
+    "static/media/vip-section.css": "/SuperWrong/static/media/bubbles.29b55bba.png",
+    "static/media/faq.css": "/SuperWrong/static/media/faq_fond.5301513d.png",
+    "static/media/navbar.css": "/SuperWrong/static/media/nav.d670b269.png",
+    "static/media/nft1.962f3f34.JPG": "/SuperWrong/static/media/nft1.962f3f34.JPG",
+    "static/media/nft2.8e307bf4.JPG": "/SuperWrong/static/media/nft2.8e307bf4.JPG",
+    "static/media/nft3.26bb84fe.JPG": "/SuperWrong/static/media/nft3.26bb84fe.JPG",
+    "static/media/nft4.a72076af.JPG": "/SuperWrong/static/media/nft4.a72076af.JPG",
+    "static/media/nft5.2080aafc.JPG": "/SuperWrong/static/media/nft5.2080aafc.JPG",
+    "static/media/nft6.7e0078e4.JPG": "/SuperWrong/static/media/nft6.7e0078e4.JPG",
+    "static/media/roadmap.d9905fcc.png": "/SuperWrong/static/media/roadmap.d9905fcc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b8d3e77.js",
+    "static/js/2.0155f688.chunk.js",
+    "static/css/main.30c1bfd2.chunk.css",
+    "static/js/main.6bb9c651.chunk.js"
+  ]
+}

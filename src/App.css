@@ -1,0 +1,197 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #C5C0D0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+}
+
+* {
+    color: black;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 0px;
+}
+
+section {
+    min-height: calc(100vh - 59px);
+    padding: 60px 10px;
+}
+
+@media (max-width:900px) {
+    section {
+        min-height: unset;
+    }
+}
+
+.wrapper {
+    /* max-width: 25%; */
+    /* margin-left: -1%; */
+}
+
+.wrapper2 {
+    max-width: 25%;
+    margin-left: -1%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.section-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title:not(.no-margin) {
+    margin: -60px auto 40px auto;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.emphased {
+    width: 100%;
+    font-size: 26px;
+    margin: 60px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+strong {
+    font-weight: bold;
+    color: #09E1FF;
+}
+
+.btn-wrapper {
+    border: 2px solid #08E1FF;
+    border-radius: 10px;
+    width: 300px !important;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.btn-wrapper.tiny {
+    min-height: 40px;
+}
+
+.btn-wrapper.center {
+    margin: 0 auto;
+}
+
+.btn-wrapper:hover {
+    background: #08E1FF;
+}
+
+.btn-wrapper:hover .btn-custom {
+    color: black !important;
+    text-shadow: unset !important;
+}
+
+
+/* SLIDERS */
+
+.slider-wrapper {
+    margin: 100px 0;
+    width: 100%;
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+
+.special-section-title {
+    padding: 10px 0px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+}
+
+.special-section-title img {
+    width: 25%;
+}
+
+.special-section-title div {
+    color: #08E1FF;
+    width: 50%;
+    font-weight: bold;
+    font-style: italic;
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important; */
+}
+
+@media (max-width:1200px) {
+    .special-section-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:900px) {
+    .special-section-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .special-section-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:600px) {
+    p {
+        font-size: 16px;
+    }
+    .btn-custom {
+        font-size: 18px;
+    }
+}
+
+
+.background_swa{
+    background-image: url('./images/backgrounds/background1.png');
+    background-repeat:no-repeat;
+    /* background-size:cover; */
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position:100%;
+    /* position: relative; */
+  }

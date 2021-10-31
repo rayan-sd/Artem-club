@@ -1,0 +1,161 @@
+/* VIP SECTION */
+.vip-section{
+  background-color: #C5C0D0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
+
+.bettwen_sect_roadmap{
+  padding-bottom: 7%;
+}
+
+.about-section_background{
+  background-image: url(../images/backgrounds/bubbles.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+  background-color:#C5C0D0;
+}
+
+.wrapper-title {
+  background-color:#C5C0D0;
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+}
+
+.space_title {
+  width: 23%;
+  font-size: 40px;
+  line-height: 43px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -22px;
+  font-family: 'Lato' !;
+}
+
+.space_title .text {
+  font-size: 40px;
+  line-height: 43px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about-section_background .wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.about-section_background .space {
+  font-size: 40px;
+  line-height: 43px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -22px;
+  width: 19%;
+  padding: 0;
+}
+
+
+.about-section_background .space .text {
+  font-size: 40px;
+  line-height: 43px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.vip-section .wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+  padding-bottom: 100px;
+  width: 100%;
+  bottom: 0;
+}
+
+
+.space {
+  padding: 0px 45px;
+  font-weight: normal 400;
+}
+
+
+
+.vip-section .space {
+  font-size: 40px;
+  line-height: 43px;
+  text-align: justify;
+  font-weight: 700;
+  margin-top: -22px;
+  padding: 0px 45px;
+  font-family: 'Lato' !;
+}
+
+.vip-section .space .text {
+  font-size: 40px;
+  line-height: 43px;
+  text-align: justify;
+  font-weight: 700;
+}
+
+
+.card-item{
+  height: 600px;
+  max-width: 350px;
+  border: 2px solid #08E1FF;
+  border-radius: 10px;
+  position: relative;
+}  
+.card-item .card-content{
+  position: absolute;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .6);
+  min-height: 230px;
+  box-shadow: 15px 3px 23px 3px rgba(9, 225, 255, 0.2);
+}
+  
+.card-item .card-content p{
+  font-size: 16px !important;
+}
+
+.card-content img{
+  display: block;
+  margin: 0 auto;
+}
+
+  
+@media (max-width:900px){
+  .vip-section{
+    background-color: #C5C0D0;
+  }
+}
+
+@media (max-width:900px){
+  .card-item{
+    width: 95% !important;
+  }
+}
+
+.about-us-section {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.about-section {
+  padding-bottom: 10%;
+  /* padding-top: 5%; */
+}
+
+.barre {
+  height: 20px;
+  width: 100%;
+  float: right;
+  background-color: #E3FF47;
+  margin-bottom: auto;
+}

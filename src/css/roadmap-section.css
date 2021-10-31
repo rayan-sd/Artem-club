@@ -1,0 +1,140 @@
+/* ROADMAP SECTION */
+.roadmap-section{
+  background-color: #C5C0D0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: 30% center;
+}
+
+.roadmap_barre {
+  height: 15px;
+  width: 43%;
+  float: right;
+  background-color: #E3FF47;
+  margin-bottom: auto;
+}
+
+.roadmap_barre1 {
+  height: 15px;
+  width: 40%;
+  float: left;
+  background-color: #E3FF47;
+  margin-bottom: auto;
+}
+
+.steps-wrapper{
+  margin-left: 800px;
+}
+
+.step{
+  margin: 40px 10px;
+  padding: 10px 10px;
+}
+
+.step p:first-child{
+  color:#09E1FF;
+  font-weight: bold;
+}
+
+.pad {
+  padding-left: 7%;
+}
+@media (max-width:1200px){
+  .steps-wrapper{
+    margin-left: 300px;
+  }
+}
+@media (max-width:900px){
+  .roadmap-section{
+    background-color: #C5C0D0;
+    background-position: left top;
+  }
+
+  .steps-wrapper{
+    margin-left: 150px;
+  }
+}
+
+.grid_roadmap {
+  display: grid;
+  padding-left: 5%;
+  padding-right: 6%;
+  padding-top: 3%;
+}
+
+.roadmap-right {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.roadmap-center {
+  grid-column:2;
+  grid-row: 1;
+}
+
+.roadmap-left {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.pourcent-left {
+  padding-top: 97%;
+  padding-bottom: 164%;
+}
+
+.pourcent-right {
+  padding-top: 151%;
+  padding-left: 25px;
+  padding-bottom: 146%;
+}
+
+.padding {
+  padding-top: 7%;
+  padding-left: 26px;
+}
+
+.color_red {
+  color: #F5456A;
+  font-weight: bold;
+  text-align: center;
+}
+
+.padd {
+  padding-right: 6%;
+}
+
+.pourcent-roadmap-left {
+  font : serif;
+  padding-left: 80%;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: justify;
+  font-weight: 700;
+  color: #F5456A;
+}
+
+.pourcent-left p{
+  padding-right:8%;
+}
+.pourcent-roadmap-right {
+  font : serif;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: justify;
+  font-weight: 700;
+  color: #F5456A;
+}
+
+.roadmap_button {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 5%;
+      /* width: 17%; */
+  margin-top: 8%;
+  width: 20%;
+  margin-left: 40%;
+}

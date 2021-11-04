@@ -220,7 +220,11 @@
   .countdown-section .enter_line {
     margin-top: 120px;
     margin-left: 31px;
-    font-size: 1.3em;
+    font-size: 1.0em;
+  }
+
+  .style_text {
+    margin-top: 0px;
   }
 
 .countdown-section .slider {

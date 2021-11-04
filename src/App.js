@@ -5,9 +5,8 @@ import team2 from './images/team/Thomas.png';
 import team3 from './images/team/Vincent.png';
 import team4 from './images/team/Wara.png';
 
-import './css/letter-section.css';
+// import './css/letter-section.css';
 import './css/roadmap-section.css';
-import './css/rules-section.css';
 import './css/team-section.css';
 import './css/vip-section.css';
 
@@ -42,7 +41,7 @@ function App() {
 					</div>
 					<TeamSlider/>
 					<SliderNft/>
-					<a  href="https://discord.gg/q5BUZwkVb4"><h1 className="join_button">Join the Discord</h1></a>
+					<a  href="https://discord.gg/sQSk9Brg"><h1 className="join_button">Join the Discord</h1></a>
 				</div>
 			</div>
 

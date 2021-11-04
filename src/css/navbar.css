@@ -65,7 +65,7 @@ nav img{
   height: 55px;
 }
 nav .links a:hover{
-  color: rgb(255, 255, 255);
+  color: #C5C0D0;
   background-color: rgb(0, 0, 0);
   transition: 0.3s;
 }

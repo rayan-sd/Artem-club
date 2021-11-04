@@ -11,7 +11,7 @@ export default class Footer extends Component {
                 <div className="logo">
                 <a href="https://opensea.io/"><img className="space_image" style={{left:'2%'}}src={opensea}></img></a>
                 <a href="https://twitter.com/WrongArtemClub"><img className="space_image" style={{left:'8%'}}src={Twitter}></img></a>
-                <a  href="https://discord.gg/q5BUZwkVb4"><img className="space_image" style={{left:'14%', width: '2%'}} src={discord}></img></a>
+                <a  href="https://discord.gg/sQSk9Brg"><img className="space_image" style={{left:'14%', width: '2%'}} src={discord}></img></a>
                 </div>
                 <div className="logo">
                     <img src={logo_site} className="footer_tele" alt="SITE Logo"></img>                        

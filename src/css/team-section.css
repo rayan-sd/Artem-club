@@ -73,8 +73,7 @@
   width: 92%;
 }
 
-
-
+.padd
 
 
 .member p{
@@ -91,6 +90,39 @@
   color:#09E1FF;
   text-transform: uppercase;
   font-size: 30px;
+}
+
+@media (max-width: 900px) {
+  .team_2 {
+  padding-left: 42px;
+  margin-top: -33px;
+  padding-bottom: 15%;  
+  }
+  .team2sup {
+    margin-bottom: -5%;
+    width: 140%;
+  }
+  .team_3 {
+    padding-left: 113px;
+  }
+  .team3sup {
+  margin-top: -52px;
+  width: 95%;
+  margin-bottom: -17px;
+  }
+  .team_4 {
+    margin-top: -32px;
+  }
+  .team4sup {
+    width: 92%;
+  }
+
+  .name {
+    margin-left: 69%;
+  }
+  .last_name {
+    margin-left: 26%;
+  }
 }
 
 @media (max-width: 479px) {

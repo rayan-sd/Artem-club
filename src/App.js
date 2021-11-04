@@ -42,7 +42,7 @@ function App() {
 					</div>
 					<TeamSlider/>
 					<SliderNft/>
-					<a  href="https://discord.gg/sQSk9Brg"><h1 className="join_button">Join the Discord</h1></a>
+					<a  href="https://discord.gg/q5BUZwkVb4"><h1 className="join_button">Join the Discord</h1></a>
 				</div>
 			</div>
 

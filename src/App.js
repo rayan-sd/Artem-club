@@ -20,9 +20,11 @@ import './App.css';
 
 
 import Nav from "./components/Nav";
+import RoadmapSlider  from './components/RoadmapSlider';
 import FAQ from "./components/faq";
 import Footer from "./components/Footer";
 import TeamSlider from './components/TeamSlider';
+import SliderNft from './components/SliderNft'
 
 function App() {
   return (
@@ -30,22 +32,22 @@ function App() {
       <Nav/>
       <main>
 			{/* HERO CONTENT */}
-			<div className="hero-wrapper" id="game">
+			<div className="hero-wrapper" id="list">
 				{/* COUNTDOWN SECTION */}
-				<div className="countdown-section" id="fights">
-					<div style={{paddingRight:'122px'}}>
+				<div className="countdown-section" id="Mint">
+					<div className="pad_right">
 					<div className="part left background_swa">
 						<h1 className="enter_line">Get on the list</h1>
 					</div>
 					</div>
 					<TeamSlider/>
-					<h1 className="join_button">Join the Discord</h1>
+					<SliderNft/>
+					<a  href="https://discord.gg/sQSk9Brg"><h1 className="join_button">Join the Discord</h1></a>
 				</div>
-				{/* <h1 className="enter_line">Join the Discord</h1> */}
 			</div>
 
 			{/* ABOUT US */}
-			<div className="about-section_background" id="vip-club">
+			<div className="about-section_background" id="about">
 				<div className="wrapper">
 					<div className="hero-barre">
 					</div>
@@ -57,29 +59,10 @@ function App() {
 				<div class ="about-section">
 					<div className="about-us-section">
 						<p className="emphased center">Welcome on Wrong Artem Club</p>
-						<p>After conveying our love of absurd and controversial art on Instagram with Su- perwrong Magazine, we wanted to go further.</p>
-						<p>It is through a passion for the metaverse that a dream was born, Wrong Artem Club, with a common goal: to create a universe highlighting the artists who have made histo- ry, and those who have not finished building it. Thus, Wrong Artem Club wants to spearhead the accessibility of art by all, and this through our common ambitions: to shout art, to spread it, to help it to develop, to make it exist at all costs.</p>
-						<p>So, the Wrong Artem Club opens its doors to you, and engages you to share with us what will make tomorrow a world of expression and emotion. </p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">Commercial Royalties</p>
-						<p> 50% Royalties due from us (Creators) to you (WoW NFT owner) on any profit we might generate from commercial use.Make your WoW NFT a star and She will make you Eth.Of course, each token grants commercial rights to the art for you to create so- mething with your WoW NFT if you wish to do so.</p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">The Fund</p>
-						<p>
-						Wrong Artem Club is about growing the nft art space that’s already here and that we love. We see thousands of artists committed to the space and we will do our part to lift the market up.15% of all primary sales will be reinvested in cryptoart!</p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">Our mission</p>
-						<p>- Building a collection through the acquisition of 1/1 Crypto art pieces</p>
-						<p>- Promoting and Showcasing the artists from its collection</p>
-						<p>- Operating purchases requested by the Curator’s Club</p>
-						<p>- Taking in consideration the recommendations of all WoW NFTs owners</p>
-					</div>
-					<div className="about-us-section">
-						<p className="emphased center">Causes we support</p>
-						<p>World of Women is about empowering Women through art and promoting diversity. It’s only fitting that we would support Women in the real world as well. 2,5% of all pri- mary sales will be donated to each of these 3 causes</p>
+						<p>After bringing our love of absurd and controversial art to Instagram with Superwrong Magazine, we wanted to take it a step further. </p>
+						<p>It's through a passion for the metaverse that our dream was born, the Wrong Artem Club, with a common goal : to create a universe highlighting the artists who have made history, and those who have not finished building it.</p>
+						<p>Thus, Wrong Artem Club wants to spearhead the accessibility of art by all, and this through our common ambitions: to shout art, to spread it, to help it to develop, to make it exist at all costs.</p>
+						<p>So, the Wrong Artem Club welcomes you, and invites you to share with us what will make tomorrow a world of expression and emotion.</p>
 					</div>
 				</div>
 			</div>
@@ -92,7 +75,7 @@ function App() {
 				</div>
 				<div className="roadmap_barre1"></div>
 			</div>
-			<section className="vip-section bettwen_sect_roadmap" id="rule">
+			<section className="vip-section bettwen_sect_roadmap" id="Roadmap">
 				<div className="grid_roadmap">
 					<div className="roadmap-right">
 						<div className="pourcent-left">
@@ -105,34 +88,34 @@ function App() {
 						</div>
 					</div>
 					<div className="roadmap-center">
-						<img src={roadmap} alt="Roadmap"></img>
+						<img src={roadmap} class="img_roadmap" alt="Roadmap"></img>
 					</div>
 					<div className="roadmap-left">
 						<div className="padding">
 							<p className="pourcent-roadmap-right">10%</p>
-							<p>1 ETH giveaway and 5 free mint NFTs giveaways</p>
+							<p className="pad-text">1 ETH giveaway and 5 free mint NFTs giveaways</p>
 						</div>
 						<div className="pourcent-right">
 							<p className="pourcent-roadmap-right">50%</p>
-							<p>2,5 % for charity (community vote on Discord) Fan Art giveaway <br></br>(with rewards)</p>
+							<p className="pad-text">2,5 % for charity (community vote on Discord) Fan Art giveaway (with rewards)</p>
 						</div>
 						<div className="pad">
 							<p className="pourcent-roadmap-right">100%</p>
-							<p>Wrong Artem Club Digital exhibition<br></br> Companions free mint for all Wrong Artem Club holders</p>
+							<p className="pad-text">Wrong Artem Club Digital exhibition<br></br> Companions free mint for all Wrong Artem Club holders</p>
 						</div>
 					</div>
 				</div>
-				<div style={{alignItems : 'center'}}>
+				<div className="style_text" >
 					<p className="color_red">Ultime goal :</p>
 					<p className="color_red">Our goal is to open the real Wrong Artem Club in Paris... and we will !</p>
-					<h1 className="join_button">Join the Twitter</h1>
+					<a href="https://twitter.com/WrongArtemClub"><h1 className="join_button1">Join the Twitter</h1></a>
 				</div>
 			</section>
 			{/* Team */}
 			<div className="wrapper-title">
 				<div className="team-barre">
 				</div>
-				<div className="space_title">
+				<div className="space_title_team">
 					<p class="text">Meet the team</p>
 				</div>
 				<div className="team-barre1"></div>
@@ -141,8 +124,7 @@ function App() {
 					<div className="grid_team">
 						<div className="team_1">
 							<img  src={team4} alt="team1"></img>
-							<span >WARA</span>
-							<br/>
+							<span >Wara</span>
 							<br/>
 							<span>Artist & Art director</span>
 						</div>
@@ -154,27 +136,58 @@ function App() {
 					</div>
 					<div className="grid_team">
 						<div className="team_2">
-							<div style={{marginBottom: '-21px'}}><img src={team2} alt="team1"></img></div>
-							<span >Thomas</span>
+							<div className="team2sup"><img style={{paddingLeft: '53px'}} src={team3} alt="team1"></img></div>
+							<span className="name">Vincent</span>
 							<br/>
+							<span className="last_name">Project Leader</span>
+						</div>
+						<div className="team_3">
+						<img  src={team1} alt="team1" className="team3sup"></img>
+							<span>Maelys</span>
+							<br/>
+							<span>Commercial Leader</span>
+							</div>
+						<div className="team_4">
+						<div style={{marginBottom: '-26px'}}><img src={team2} alt="team1" className="team4sup"></img></div>
+							<span >Thomas</span>
 							<br/>
 							<span>Developer Leader</span>
 						</div>
+					</div>
+					<div className="grid_team">
+						<div className="team_2">
+							<div className="team2sup"><img style={{paddingLeft: '53px'}} src={team3} alt="team1"></img></div>
+							<span className="name">Vincent</span>
+							<br/>
+							<span className="last_name">Project Leader</span>
+						</div>
 						<div className="team_3">
-							<div style={{paddingBottom: '6px'}}><img style={{width: '96%',  paddingLeft: '53px'}} src={team3} alt="team1"></img></div>
-							<span >Vincent</span>
-							<br/>
-							<br/>
-							<span>Project Leader</span>
-							</div>
-						<div className="team_4">
-							<img  src={team1} alt="team1"></img>
-							<span >Maelys</span>
-							<br/>
+						<img  src={team1} alt="team1" className="team3sup"></img>
+							<span>Maelys</span>
 							<br/>
 							<span>Commercial Leader</span>
+							</div>
+						<div className="team_4">
+						<div style={{marginBottom: '-26px'}}><img src={team2} alt="team1" className="team4sup"></img></div>
+							<span >Thomas</span>
+							<br/>
+							<span>Developer Leader</span>
 						</div>
-				</div>
+					</div>
+				<div class="slider_team_phone">
+						<div className="team_1">
+							<img  src={team4} alt="team1"></img>
+							<span >Wara</span>
+							<br/>
+							<span>Artist & Art director</span>
+						</div>
+						<div className="text_team">
+							<p> The whole collection is the work of Yam in her signature hand-drawn and colourful style using Procreate and Adobe Illustrator. With her art her mission has always been to highlight and empower women by making them the center of her pieces.</p>
+							<p>World of Women aims to bring in more diversity and inclusivity to nfts, which we believe is very much missing in this male dominated space.</p>
+							<p>We are all passionate and committed to the nft space and strongly believe this is our future and that our project can help make a diffe- rence. We hope you’ll follow along on this journey with us!</p>
+						</div>
+						<RoadmapSlider/>
+					</div>
 			</section>
 				{/* FAQ */}
 				<section className="faq-section" id="faq">

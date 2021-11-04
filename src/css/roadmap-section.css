@@ -14,6 +14,25 @@
   margin-bottom: auto;
 }
 
+.join_button1 {
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+  margin-top: 5%;
+  font-size: 23px;
+  width: 13%;
+  padding: 7px 1px;
+  margin-left: 43%;
+}
+
+.style_text {
+  align-items: center;
+  margin-top: -62px;
+}
+
 .roadmap_barre1 {
   height: 15px;
   width: 40%;
@@ -26,12 +45,17 @@
   margin-left: 800px;
 }
 
-.step{
+.stepp{
   margin: 40px 10px;
   padding: 10px 10px;
 }
 
-.step p:first-child{
+.step{
+  margin: 100px 60px;
+  padding: 10px 10px;
+}
+
+.stepp p:first-child{
   color:#09E1FF;
   font-weight: bold;
 }
@@ -44,6 +68,27 @@
     margin-left: 300px;
   }
 }
+
+@media (max-width:950px) {
+  .grid_roadmap .roadmap-center .img_roadmap {
+   max-width: 130%;
+ }
+ .grid_roadmap .roadmap-right .pourcent-left {
+  padding-bottom: 115%;
+ }
+ .grid_roadmap .roadmap-left .pourcent-right {
+    padding-top: 115%;
+    padding-bottom: 105%;
+ }
+ .join_button1 {
+    width: 32%;
+    margin-left: 35%;
+  }
+  .wrapper-title .space_title {
+    width: 50%;
+  }
+}
+
 @media (max-width:900px){
   .roadmap-section{
     background-color: #C5C0D0;
@@ -137,4 +182,64 @@
   margin-top: 8%;
   width: 20%;
   margin-left: 40%;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width:479px) {
+  .wrapper-title .space_title {
+    width: 49%;
+  }
+  .pad-text {
+    font-size: 13px;
+  }
+
+  .grid_roadmap .roadmap-center .img_roadmap {
+    max-width: 200%;
+    height: 750px;
+  }
+  .padd {
+    font-size :13px;
+    margin-bottom: 0;
+  }
+  .grid_roadmap .roadmap-right .pourcent-left {
+    padding-bottom: 167%;
+    padding-top: 139%;
+  }
+  .grid_roadmap .roadmap-left .pourcent-right {
+    padding-bottom: 124%;
+    padding-top: 112%;
+    margin-left: 18px;
+  }
+  .pourcent-roadmap-left {
+    padding-left: 51%;
+    font-size: 23px;
+    margin-bottom: 0;
+  }
+  .padding {
+    padding-left: 44px;
+  }
+  .pourcent-roadmap-right {
+    font-size: 23px;
+    margin-bottom: 0;
+  }
+  .pourcent-right {
+    margin-left: 180px;
+  }
+  .pad {
+    padding-left: 28%;
+  }
+  p {
+    font-size: 13px;
+  }
+  .join_button1 {
+    width: 37%;
+    margin-left: 30%;
+    font-size: 1.0rem;
+  }
 }

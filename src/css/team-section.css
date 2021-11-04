@@ -23,6 +23,23 @@
   margin-bottom: auto;
 }
 
+.space_title_team {
+  width: 23%;
+  font-size: 40px;
+  line-height: 43px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -22px;
+  font-family: 'Lato' !;
+}
+
+.space_title_team .text {
+  font-size: 40px;
+  line-height: 43px;
+  text-align: center;
+  font-weight: 700;
+}
+
 .member img{
   display: block;
   margin: 0 auto;
@@ -32,6 +49,33 @@
   margin-bottom: 20px;
   height: 300px;
 }
+
+.team2sup {
+  margin-bottom: -5%;
+  width: 103%;
+}
+
+.name {
+  margin-left: 11%;
+}
+
+.last_name {
+  margin-left: 13%;
+}
+
+.team3sup {
+  margin-top: -52px;
+  width: 95%;
+  margin-bottom: -41px;
+}
+
+.team4sup {
+  width: 92%;
+}
+
+
+
+
 
 .member p{
   text-align: center;
@@ -47,4 +91,31 @@
   color:#09E1FF;
   text-transform: uppercase;
   font-size: 30px;
+}
+
+@media (max-width: 479px) {
+
+.space_title .text {
+    font-size: 33px;
+    line-height: 57px;
+  }
+  .wrapper-title .space_title {
+    width: 82%;
+  }
+
+  .space_title_team {
+    width: 142%;
+    font-size: 40px;
+    line-height: 43px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -22px;
+}
+
+  .space_title_team .text {
+    font-size: 33px;
+    line-height: 43px;
+    text-align: center;
+    font-weight: 700;
+  }
 }

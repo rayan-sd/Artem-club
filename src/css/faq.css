@@ -79,3 +79,9 @@
     margin-top: 10%;
     margin-bottom: 7%;
   }
+
+  @media (max-width:479px) {
+    .faq-section .wrapper .space1 p {
+      padding-left: 2%;
+    }
+  }

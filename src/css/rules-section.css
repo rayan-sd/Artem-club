@@ -16,17 +16,15 @@
   }
 }
 
-.grid_team {
-  display: grid;
-  padding-top: 80px;
-}
-
 .text_team {
   grid-column:2;
   grid-row: 1;
   padding-top: 3%;
   padding-right: 100px;
   padding-left: 100px;
+  margin-right: 5%;
+  margin-left: -8%;
+  margin-top: 5%;
 }
 
 .team_1 {
@@ -36,11 +34,11 @@
 }
 
 .team_2 {
-  grid-column:1;
+  grid-column: 1;
   grid-row: 2;
   text-align: center;
   padding-left: 85px;
-  padding-bottom: 20%;
+  padding-bottom: 20%
 }
 
 .team_2 p{
@@ -62,6 +60,7 @@
   text-align: center;
   padding-left: 80px;
   grid-row: 2;
+  margin-top: -22px
 }
 
 .team_4 p{

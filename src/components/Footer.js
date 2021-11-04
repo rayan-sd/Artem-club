@@ -14,7 +14,7 @@ export default class Footer extends Component {
                 <a  href="https://discord.gg/sQSk9Brg"><img className="space_image" style={{left:'14%', width: '2%'}} src={discord}></img></a>
                 </div>
                 <div className="logo">
-                    <img src={logo_site} style={{float:'right'}} alt="SITE Logo"></img>                        
+                    <img src={logo_site} className="footer_tele" alt="SITE Logo"></img>                        
                 </div>
                 <div className="footer_text">
                     <p>Politic policy</p>

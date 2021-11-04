@@ -56,8 +56,8 @@ export default class TeamSlider extends Component {
 
   render() {
     return (
-      <div style={{textAlign:'center'}}>
-        <div style={{ width: "70%", height: "500px", margin: '0 260px'}}>
+      <div style={{textAlign:'center'}} className="slider_ordi">
+        <div className="slider">
           <Carousel
             slides={this.slides}
             goToSlide={this.state.goToSlide}

@@ -11,7 +11,7 @@
 }
 
 .about-section_background{
-  background-image: url(../images/backgrounds/bubbles.png);
+  background-image: url(../images/good_image/bubbles.png);
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center center;
@@ -158,4 +158,47 @@
   float: right;
   background-color: #E3FF47;
   margin-bottom: auto;
+}
+
+.grid_team {
+  display: grid;
+  padding-top: 80px;
+}
+
+.slider_team_phone {
+  display: none;
+}
+
+
+@media (max-width:450px){
+  .vip-section .grid_team{
+    display: none;
+  }
+}
+
+
+@media (max-width:450px) {
+  .slider_team_phone {
+    display: unset;
+  }
+  .text_team {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 3%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .space_title .text {
+    font-size: 33px;
+    line-height: 43px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .bettwen_sect_roadmap {
+    padding-bottom: 13%;
+  }
 }

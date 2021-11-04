@@ -50,14 +50,20 @@ export default class Nav extends Component {
                             </label>
                         </div>
                         <div className={this.state.menu_class}>
-                            <a href="#vip-club">About</a>
-                            <a href="#fights">Mint</a>
-                            <a href="#rule">Roadmap</a>
+                            <a href="#about">About</a>
+                            <a href="#Mint">Mint</a>
+                            <a href="#Roadmap">Roadmap</a>
                             <a href="#Team">Team</a>
                             <a href="#faq">F.A.Q</a>
                         </div>
-                        <div>
-                            {/* <a className="special" href="#game">Connect </a> */}
+                        <div className={this.state.menu_class} style={{paddingLeft : 0,paddingRight: 0}}>
+                            <div className="nav-none">
+                                <a href="#about">About</a>
+                                <a href="#Mint">Mint</a>
+                                <a href="#Roadmap">Roadmap</a>
+                                <a href="#Team">Team</a>
+                                <a href="#faq">F.A.Q</a>
+                            </div>
                             <h1 className="special">Connect</h1>
                         </div>
                     </>

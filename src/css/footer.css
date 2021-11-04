@@ -108,3 +108,35 @@
 .footer .footer_text p {
   margin-left: 75%;
 }
+
+.footer_tele {
+  float: right;
+}
+
+@media (max-width:950px) {
+  .footer {
+    height: 160px;
+    background-size: cover;
+  }
+  .footer .footer_text p {
+    margin-left: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer_tele {
+    float: right;
+    padding-top: 25px;
+  }
+  .footer .footer_text { 
+    padding-top: 25px;
+  }
+  .footer .footer_text p { 
+    font-size: 10px;
+  }
+  .footer {
+    height: 90px;
+    background-size: cover;
+    padding: 0;
+  }
+}
